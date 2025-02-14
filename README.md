@@ -24,7 +24,7 @@ React 19버전에서는 Actions 기능을 통해 form 제출 시 발생하는 �
 
 개발자가 직접 작성해야 헀던 코드량을 크게 줄여주고, 코드 가독성과 보수성을 높였습니다.
 
-# 이전 버전
+## 이전 버전
 ```
 function UpdateName() {
   const [name, setName] = useState("");
@@ -55,7 +55,7 @@ function UpdateName() {
 }
 ```
 
-# 최신 버전
+## 최신 버전
 ```
 function UpdateName() {
   const [name, setName] = useState("");
@@ -86,8 +86,8 @@ function UpdateName() {
 }
 
 ```
-<kdb> 
+<div style="border: 1px solid black"> 
 1. useTransiotion() hook을 사용해서 isPending 상태를 자동으로 관리하게 해줬습니다. 
 2. startTransiotion() 함수 안에 비동기 로직을 넣으면, React가 로딩 상태를 자동으로 관리 합니다. 
 3. setIsPending()을 직접 호출하지 않아도 React가 알아서 대기 상태를 처리합니다.
-</kdb>
+</div>
