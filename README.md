@@ -1,5 +1,5 @@
 # React19-Info
-(공식문서)[https://react.dev/blog/2024/12/05/react-19#whats-new-in-react-19]
+[React 19 공식 문서](https://react.dev/blog/2024/12/05/react-19#whats-new-in-react-19)
 
 ## Actions
 
@@ -86,7 +86,8 @@ function UpdateName() {
 }
 
 ```
-
-위의 코드에서는 useTransiotion() hook을 사용해서 isPending 상태를 자동으로 관리하게 해줬습니다. 
-startTransiotion() 함수 안에 비동기 로직을 넣으면, React가 로딩 상태를 자동으로 관리 합니다. 
-setIsPending()을 직접 호출하지 않아도 React가 알아서 대기 상태를 처리합니다.
+<kdb> 
+1. useTransiotion() hook을 사용해서 isPending 상태를 자동으로 관리하게 해줬습니다. 
+2. startTransiotion() 함수 안에 비동기 로직을 넣으면, React가 로딩 상태를 자동으로 관리 합니다. 
+3. setIsPending()을 직접 호출하지 않아도 React가 알아서 대기 상태를 처리합니다.
+</kdb>
