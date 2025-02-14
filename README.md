@@ -86,3 +86,7 @@ function UpdateName() {
 }
 
 ```
+
+위의 코드에서는 useTransiotion() hook을 사용해서 isPending 상태를 자동으로 관리하게 해줬습니다. 
+startTransiotion() 함수 안에 비동기 로직을 넣으면, React가 로딩 상태를 자동으로 관리 합니다. 
+setIsPending()을 직접 호출하지 않아도 React가 알아서 대기 상태를 처리합니다.
